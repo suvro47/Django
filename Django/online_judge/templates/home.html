@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 style="font-size:50px;"> <i> Battle Of Brain <sub> <font size = "5"> Online judge </font> </sub>  <sup style="float:right"> <font size = "3"> Welcome to our Online Judge </font> </sup> </i></h1>
+    <ul>
+        <li><a href="#"> Home </a></li>
+        <li><a href="#"> Problem </a></li>
+        <li><a href="#"> Contest </a></li>
+        <li><a href="#"> Status </a></li>
+        <li><a href="#"> User </a></li>
+
+        {% if user.is_authenticated %}
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'logout' %}" > Logout </a></li>
+        <li style="float:right"> <a class="btn btn-primary" href="#" > Hello , {{user.username}} </a> </li>
+        {% else %}
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'register' %}" > Register </a></li>
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'login' %}"> Login </a></li>
+        {% endif %}
+    </ul>
+
+{% endblock content %}

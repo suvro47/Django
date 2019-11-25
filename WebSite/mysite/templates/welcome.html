@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 align="center" style="font-size:50px;" > <i> Welcome To Our Department </i></h1>
+
+    <ol>
+        <li><a href="#"> Home </a></li>
+        <li><a href="{% url 'student-list' %}">Student</a></li>
+        <li><a href="{% url 'teacher-list' %}">Teacher</a></li>
+        <li><a href="{% url 'staff-list' %}">Staff</a></li>
+        <li><a href="#">About Me</a></li>
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'logout' %}">Log Out</a> </li>
+    </ol>
+
+{% endblock content %}
