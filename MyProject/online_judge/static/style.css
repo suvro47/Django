@@ -1,0 +1,30 @@
+body {
+    background-color: #0000
+	background-repeat: no-repeat;
+	background-size: 1367px 695px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+   float: left;
+   border-right: 1px solid purple;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue
+}
