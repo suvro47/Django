@@ -15,3 +15,6 @@ def register(request):
     else:
         form = UserCreationForm()
     return render(request, 'register.html', {'form': form})
+
+
+#  no need to define login and logout views
