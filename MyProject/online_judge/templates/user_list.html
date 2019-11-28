@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-      <h1 align="center"> --- User List --- </h1>
+      <h2 align="center"> Respective Users of Our Online Judge </h2>
       <ul>
           {% for user in all_user_list %}
-            <h2> <a href="{% url 'single-user' user.pk %}">{{ user.username }}</a></h2>
+            <h3> @ <a href="{% url 'single-user' user.pk %}">{{ user.username }}</a></h3>
           {% endfor %}
       </ul>
-
 {% endblock %}

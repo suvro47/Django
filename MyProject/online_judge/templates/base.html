@@ -21,8 +21,8 @@
         <li style="float:right"> <a class="btn btn-primary" href="{% url 'logout' %}" > LOGOUT </a></li> 
         <li style="float:right"> <a class="btn btn-primary" href="#" > {{user.username}} </a>|</li>
         {% else %}
-        <li style="float:right"> <a class="btn btn-primary" href="{% url 'register' %}" > REGISTER </a>|</li>
-        <li style="float:right"> <a class="btn btn-primary" href="{% url 'login' %}"> LOGIN </a></li>
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'register' %}" > REGISTER </a></li>
+        <li style="float:right"> <a class="btn btn-primary" href="{% url 'login' %}"> LOGIN </a>|</li>
         {% endif %}
     </ul>
     <hr>
