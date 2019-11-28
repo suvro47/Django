@@ -1,7 +1,5 @@
 body {
-    background-color: #0000
-	background-repeat: no-repeat;
-	background-size: 1367px 695px;
+  background-color: white;
 }
 
 ul {
@@ -10,21 +8,16 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 li {
    float: left;
-   border-right: 1px solid purple;
 }
 
 li a {
-  display: block;
   color: black;
   text-align: center;
-  padding: 15px 20px;
+  padding: 15px 15px;
   text-decoration: none;
-}
-
-li a:hover {
-  background-color: blue
 }
