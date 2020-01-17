@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742c7764-5b6b-46f9-84ed-db5791ad5d28" name="Default Changelist" comment="" />
+    <list default="true" id="27d4ee29-5a49-4f16-af11-254f1b738c9a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,20 +11,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1Tn8Q770YI0qjuyV761XRboa3gz" />
+  <component name="ProjectId" id="1TnoZVrIJeGGDGkUd9aAOYsVFpf" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="F:/Dream Land/Python/program_04 (Input as String).py" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SUVRO\Desktop\mysite\static" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfoSystem" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,11 +38,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="742c7764-5b6b-46f9-84ed-db5791ad5d28" name="Default Changelist" comment="" />
-      <created>1574084480318</created>
+      <changelist id="27d4ee29-5a49-4f16-af11-254f1b738c9a" name="Default Changelist" comment="" />
+      <created>1574105276892</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574084480318</updated>
+      <updated>1574105276892</updated>
     </task>
     <servers />
   </component>
